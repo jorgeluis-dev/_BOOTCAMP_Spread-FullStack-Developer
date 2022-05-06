@@ -1,0 +1,66 @@
+/*DISPLAY FLEX*/
+.flex{
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.item{
+    background-color: aqua;
+    margin: 5px;
+}
+
+
+/*FLEX DIRECTION */
+.flex2{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.item2{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.row-reverse li{
+    background-color: yellowgreen;
+    flex-direction: row-reverse;
+}
+
+.column{
+    float: left;
+    flex-direction: column;
+}
+
+.column li{
+    background-color: blueviolet;
+}
+
+.column-reverse{
+    float: right;
+    flex-direction: column-reverse;
+}
+
+.column-reverse li {
+    background-color: rgb(145, 25, 45);
+}
+
+/*FLEX WRAP*/
