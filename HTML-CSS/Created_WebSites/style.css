@@ -1,0 +1,77 @@
+
+body{
+    background-color: rgb(73, 68, 68);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 900px;
+}
+
+#title, .subtitle, .post_title {
+    color: rgb(52, 152, 24);
+}
+
+.post_title{
+    color: blue;
+    font-size: 26px;
+    font-style: italic;
+}
+
+#title{
+    font-size: 100px;
+    font-style: italic;
+    align-items: center;
+}
+
+.post{
+    background-color: white;
+    padding: 10px 5px 5px 0;
+    margin: 10px;
+
+    border-top: 5px dotted green;
+    border-right: 4px dashed pink;
+    border-bottom: 3px solid purple;
+    border-left: 4px dotted cyan;
+    border-radius: 10px;
+    border-radius: 50%;
+    border-radius: 10% 20% 10% 30%;
+}
+
+.fontes{
+    font-family: Verdana, Arial;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: overline;    
+    
+}
+
+/*LISTAS ORDENADAS | NAO ORDENADAS*/
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+ul {
+    list-style-type: "\1F44D";
+    list-style-image: url("https://www.w3schools.com/css/favicon.ico");
+}
+
+
+/*DIMENSOES | ALINHAMENTOS*/
+.dimensao{
+    width: 100px;
+    height: 100px;
+    
+    max-width: 100px;
+    max-height: 100px;
+
+    margin: 100px;
+
+    text-align: center;
+    
+}
