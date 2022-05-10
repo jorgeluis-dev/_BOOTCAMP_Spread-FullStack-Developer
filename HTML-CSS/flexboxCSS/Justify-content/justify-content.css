@@ -1,0 +1,44 @@
+.container{
+    max-width: 400px;
+    border: 2px solid black;
+    margin: 0;
+    display: flex;
+}
+
+.item{
+    background-color: brown;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+.flex-space-between{
+    justify-content: space-between;
+}
+
+.flex-space-around{
+    justify-content: space-around;
+}
+
+.column{
+    flex-direction: column;
+    height: 200px;
+}
+
+h1{
+    color: rgb(63, 152, 45);
+}

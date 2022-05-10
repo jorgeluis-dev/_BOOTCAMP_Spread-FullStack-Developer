@@ -57,8 +57,30 @@ flexItem{
         3#Flex-WRAP{
             Define a quebra de linhas(container)
 
+            nowrap [ padrão | não permite quebra de linha]
+
+            wrap [Permite quebra-linha | ]
+
+            wrap-reverse[permite quebra-linha | sentido contrario]
+
         }
 
+}
+=======================================================
+flex-Flow => atalho para proriedades[flex-direction | flex-wrap]
 
+========================
 
+justify-content{
+    Alinha itens[dentro container]
+
+    flex-start [alinha inicio cointainer]
+    flex-end [alinha final container]
+    center: [ao centro]
+    space-between [
+        -> cria espaçamento igual entre elementos
+    ]
+    space-around[
+        -> espaçamento do meio são duas vezes maior
+    ]
 }
