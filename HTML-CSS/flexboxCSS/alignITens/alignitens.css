@@ -1,0 +1,73 @@
+body{
+    background-color: #1944b2;
+    color: #fff;
+}
+
+h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.container{
+    max-width: 350px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.item{
+    background-color: blueviolet;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    flex: 1;
+}
+
+
+/*Types*/
+.center{
+    align-items: center;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+
+.baseline{
+    align-items: baseline;
+}
+
+/* INSERT COLUMN  JOIN align-items*/
+.column{
+    flex-direction: column;
+}
+
+
+/*OTHERS*/
+.central{
+    height: 300px;
+    justify-content: center;
+}
+
+.central .item{
+    flex: 0;
+    padding: 20px;
+}

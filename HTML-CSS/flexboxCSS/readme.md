@@ -84,3 +84,30 @@ justify-content{
         -> espaçamento do meio são duas vezes maior
     ]
 }
+================================================================
+Align ITEMS
+
+-> Alinhamento dos itens [EIXO CONTAINER]
+-> Permite alinhar EIXO VERTICAL
+
+types{
+    center = alinha itens centro
+    streth = padrão, flex itens crecem igualmente
+    flex-start = alinha itens inicio
+    flex-end = alinhamento dos itens no final
+    baseline = alinha de acordo[ com a linha base tipografia dos itens]
+}
+===============================================
+Align Content
+
+-> Container utilize quebra de linhas
+-> Altura do container > maior que a [SOMA] das linhas de itens
+
+TYpes[
+    center = itens ao centro
+    stretch = padrão | flex itens crescem igualmente
+    flex-start = itens no inicio
+    flex-end = itens no final
+    space-between = espaçamento igual entre os elementos
+    space-around = espaçamento do meio | 2x | maior que o inicial_Final
+]
