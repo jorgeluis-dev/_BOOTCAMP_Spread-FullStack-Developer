@@ -121,3 +121,7 @@ FLEX{
     grow,shrik,basis;
     flex: 1, 0, auto
 }
+
+Align-Self{
+    Alinha de modo individual sobre determinado item
+}

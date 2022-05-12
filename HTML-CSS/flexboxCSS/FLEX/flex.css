@@ -50,3 +50,32 @@ p{
 }
 
 /* ORDER DOWN*/
+.item2{
+    flex: 1;
+    background-color: rgb(94, 0, 171);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+    order: 0;
+}
+
+.ol1{
+    order: 1;
+}
+
+.ol2{
+    order: 2;
+}
+
+.ol3{
+    order: 3;
+}
+
+.ol4{
+    order: 4;
+}
+
+.direction{
+    flex-direction: column;
+}
