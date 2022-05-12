@@ -1,0 +1,52 @@
+body{
+    background-color: tomato;
+    text-transform: uppercase !important;
+}
+
+.flex-container{
+    display: flex;
+    border: 1px solid black;
+    max-width: 400px;
+    margin: 10px;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+.item{
+    background-color: green;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+
+.flex-1{
+    flex: 1;
+    /*
+    Grow = 1;
+    shrik = 1;
+    basis = 0;
+    */
+}
+
+.largura{
+    width: 200px;
+    min-width: 250px;
+}
+
+.flex{
+    flex: 2;
+        /*
+    Grow = 2;
+    shrik = 1;
+    basis = 0;
+    */
+}
+
+/* ORDER DOWN*/

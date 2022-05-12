@@ -111,3 +111,13 @@ TYpes[
     space-between = espaçamento igual entre os elementos
     space-around = espaçamento do meio | 2x | maior que o inicial_Final
 ]
+===========================================
+FLEX-SHRINK
+
+Estabelece a capacidade de redução|
+compressão do tamanho de um item
+========================================================
+FLEX{
+    grow,shrik,basis;
+    flex: 1, 0, auto
+}
